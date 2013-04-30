@@ -23,7 +23,6 @@ public class JSONDocumentReader {
     BufferedReader reader;
     String nextLine;
         
-
     public JSONDocumentReader(String path) 
             throws IOException {
         this(new File(path));
